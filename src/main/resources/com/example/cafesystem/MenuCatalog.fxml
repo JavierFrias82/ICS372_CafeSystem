@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafesystem.CafeController">
+<AnchorPane prefHeight="660.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafesystem.CafeController">
     <children>
-        <Label layoutX="83.0" layoutY="60.0" prefHeight="27.0" prefWidth="163.0" text="MainWindow">
-            <font>
-                <Font size="18.0" />
-            </font>
-        </Label>
+      <Label layoutX="71.0" layoutY="13.0" prefHeight="27.0" prefWidth="172.0" text="Select Menu Items" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="48.0" prefHeight="43.0" prefWidth="52.0" text="Coffees" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="48.0" prefHeight="43.0" prefWidth="258.0" text="Latte: $2.50, Cappuccino: $3.00, Expresso: $3.50" />
+      <Label layoutX="19.0" layoutY="133.0" prefHeight="43.0" prefWidth="52.0" text="Teas" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="133.0" prefHeight="43.0" prefWidth="224.0" text="Green: $2.50, Black: $3.00, Herbal: $3.50" />
+      <Label layoutX="82.0" layoutY="221.0" prefHeight="43.0" prefWidth="203.0" text="Small:  +.25, Med: +.50, Large: +75 " />
+      <Label layoutX="19.0" layoutY="218.0" prefHeight="43.0" prefWidth="52.0" text="Sizes" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="262.0" prefHeight="43.0" prefWidth="101.0" text="Customizations" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="153.0" layoutY="90.0" mnemonicParsing="false" onAction="#addCoffee" prefHeight="43.0" prefWidth="91.0" text="Add Coffee" />
+      <Button layoutX="153.0" layoutY="178.0" mnemonicParsing="false" onAction="#addTea" prefHeight="43.0" prefWidth="91.0" text="Add Tea" />
+      <Label layoutX="147.0" layoutY="262.0" prefHeight="43.0" prefWidth="52.0" text="Add .25" />
+      <Label layoutX="20.0" layoutY="305.0" prefHeight="43.0" prefWidth="75.0" text="Croissant" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="305.0" prefHeight="43.0" prefWidth="165.0" text="Butter: $3.50, Chocolate: $4.00" />
+      <Button layoutX="153.0" layoutY="348.0" mnemonicParsing="false" onAction="#addCroissant" prefHeight="43.0" prefWidth="91.0" text="Add Croissant" />
+      <Label layoutX="20.0" layoutY="391.0" prefHeight="43.0" prefWidth="75.0" text="Muffin" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="391.0" prefHeight="43.0" prefWidth="224.0" text="Blueberry: $3.50, Chocolate Chip: $4.00 " />
+      <Button layoutX="153.0" layoutY="434.0" mnemonicParsing="false" onAction="#addMuffin" prefHeight="43.0" prefWidth="91.0" text="Add Muffin" />
+      <Label layoutX="20.0" layoutY="477.0" prefHeight="43.0" prefWidth="75.0" text="Cookie" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="477.0" prefHeight="43.0" prefWidth="236.0" text="Chocolate Chip: $3.50, Oatmeal Raisin: $4.00" />
+      <Button layoutX="117.0" layoutY="597.0" mnemonicParsing="false" onAction="#completeOrder" prefHeight="43.0" prefWidth="110.0" text="Complete" />
+      <Label layoutX="55.0" layoutY="554.0" prefHeight="43.0" prefWidth="236.0" text="Hit the Complete Button to Complete Order" />
+      <Button layoutX="153.0" layoutY="520.0" mnemonicParsing="false" onAction="#addCookie" prefHeight="43.0" prefWidth="91.0" text="Add Cookie" />
     </children>
 </AnchorPane>

@@ -24,7 +24,7 @@
                 <Font size="18.0" />
             </font>
         </PasswordField>
-        <Label fx:id="lblstatus" layoutX="59.0" layoutY="63.0" prefHeight="27.0" prefWidth="256.0" text="Status" textFill="#ea0909">
+        <Label fx:id="lblStatus" layoutX="59.0" layoutY="63.0" prefHeight="27.0" prefWidth="256.0" text="Status" textFill="#ea0909">
             <font>
                 <Font size="18.0" />
             </font>
