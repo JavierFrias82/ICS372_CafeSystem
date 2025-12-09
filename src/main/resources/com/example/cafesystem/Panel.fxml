@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafesystem.CafeApplication">
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cafesystem.CafeController">
    <children>
       <Button layoutX="66.0" layoutY="69.0" mnemonicParsing="false" onAction="#BarristaScene" prefHeight="41.0" prefWidth="167.0" text="Barista Login">
          <font>

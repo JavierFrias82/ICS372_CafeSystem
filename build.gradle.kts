@@ -27,7 +27,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("com.example.cafesystem")
-    mainClass.set("com.example.cafesystem.HelloApplication")
+    mainClass.set("com.example.cafesystem.CafeApplication")   // ✅ FIXED HERE
 }
 
 javafx {
